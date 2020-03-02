@@ -1,12 +1,18 @@
 {
-    "name": "laravel/laravel",
+    "name": "dotworkers/skeleton",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Descripción del proyecto",
     "keywords": [
         "framework",
         "laravel"
     ],
-    "license": "MIT",
+    "license": "Proprietary",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.dotworkers.net"
+        }
+    ],
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
@@ -23,7 +29,8 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": false
     },
     "extra": {
         "laravel": {
