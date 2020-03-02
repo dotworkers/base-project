@@ -44,3 +44,9 @@ de Laravel el cual no utilizamos porque por lo general no cumplen con nuestros r
         "secure-http": false
     },
    ```
+
+### Estructura básica
+
+Dentro de la carpeta ```app``` se encuentra una carpeta llamada ```Users``` en donde se muestra la estructura básica que
+puede tener un módulo dentro de la aplicación. No deben utilizarse todas las capas obligatoriamente, solo se muestran a
+modo de ejemplo para que el programador haga uso de las que requiera.
