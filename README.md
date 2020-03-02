@@ -1,6 +1,6 @@
 ## Dotworkers Skeleton
 
-Este proyecto sirve como base para estructurar un nuevo proyecto desde 0. Inicialmente luego de instalar Laravel se deben 
+Este proyecto sirve como base para estructurar un nuevo proyecto. Inicialmente luego de instalar Laravel se deben 
 realizar una serie de configuraciones que se describen a continuación.
 
 ### Modificaciones
