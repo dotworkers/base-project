@@ -9,7 +9,7 @@ realizar una serie de configuraciones que se describen a continuación.
     
     - Crear una carpeta llamada ```Users``` y dentro de ésta una carpeta llamada ```Entities```
     - Copiar la entidad ```User.php``` desde la carpeta ```app``` a la carpeta ```Entities``` recién creada
-    - Actualizar el namespace de la entidad User.php de ```namesapce App;``` a ```namespace App\Users\Entities```
+    - Actualizar el namespace de la entidad ```User.php``` de ```namesapce App;``` a ```namespace App\Users\Entities;```
     - Actualizar el llamado a la entidad ```User``` en el archivo ```config/auth.php``` en el ítem ```providers``` de 
     ```App\User::class``` a ```App\Users\Entities\User::class```
     
