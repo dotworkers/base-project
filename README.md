@@ -1,9 +1,15 @@
 ## Dotworkers Skeleton
 
-Este proyecto sirve como base para estructurar un nuevo proyecto. Inicialmente luego de instalar Laravel se deben 
-realizar una serie de configuraciones que se describen a continuación.
+### Estructura básica
+
+Este proyecto sirve como base para estructurar un nuevo proyecto. Dentro de la carpeta ```app``` se encuentra una carpeta 
+llamada ```Users``` en donde se muestra la estructura básica que puede tener un módulo dentro de la aplicación. 
+No deben utilizarse todas las capas obligatoriamente, solo se muestran a modo de ejemplo para que el programador haga 
+uso de las que requiera.
 
 ### Modificaciones
+
+Inicialmente luego de instalar Laravel se deben  realizar una serie de configuraciones que se describen a continuación.
 
 - **Cambiar ubicación por defecto de entidad ```User```:**
     
@@ -35,7 +41,7 @@ de Laravel el cual no utilizamos porque por lo general no cumplen con nuestros r
         }
     ],
     ```
-    - Agregar el atributp ```"secure-http": false``` al ítem ```config``` como se muestra a continuación:
+    - Agregar el atributo ```"secure-http": false``` al ítem ```config``` como se muestra a continuación:
      ```
     "config": {
         "optimize-autoloader": true,
@@ -44,9 +50,3 @@ de Laravel el cual no utilizamos porque por lo general no cumplen con nuestros r
         "secure-http": false
     },
    ```
-
-### Estructura básica
-
-Dentro de la carpeta ```app``` se encuentra una carpeta llamada ```Users``` en donde se muestra la estructura básica que
-puede tener un módulo dentro de la aplicación. No deben utilizarse todas las capas obligatoriamente, solo se muestran a
-modo de ejemplo para que el programador haga uso de las que requiera.
